@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.design{
+    background-color: #cbdbd1;
+    padding: 6rem 0px;
+}
+
+.design img{
+    width: 276px;
+    height: 276px;
+    border-radius: 50%;
+}
+
+.design h2{
+    color: #687f71;
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.design p{
+    color: #232423;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+.btn_common{
+    background-color: #88a593;
+    color: white;
+    padding: 12px 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    width: fit-content;
+    border: 1px solid #88a593;
+}
+
+.deliver{
+    background-color: #88a593;
+    padding: 6rem 0rem;
+}
+
+.deliver h2{
+    color: #f1f6f3;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.deliver .box{
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin: 0px 10px;
+    padding: 6rem 0rem;
+}
+
+.deliver .box h3{
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #88a593;
+}
+
+.deliver .box p{
+    font-style: italic;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #1e2123;
+}
+
+.since{
+    padding: 6rem 0rem;
+    background-color: #ffffff;
+}
+
+.since h1{
+    font-size: 6rem;
+    font-weight: 700;
+    color: #88a593;
+}
+
+.since h2{
+    line-height: 1.4;
+    font-weight: 500;
+    font-size: 2.25rem;
+    color: #88a593;
+}
+
+.since h3{
+    font-size: 1.875rem;
+    letter-spacing: normal;
+    font-weight: 400;
+    color: #a8c0b1;
+    line-height: 1.2;
+}
+
+.since p{
+    line-height: 1.8;
+    font-style: italic;
+    font-size: 1.125rem;
+    color: #808080;
+}
+
+.text_bg{
+    background-image: url(/Images/bg_text.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text_bg h1{
+    font-weight: 400;
+    font-size: 3.75rem;
+    line-height: 1.1;
+    color: #ffffff;
+}
+
+@media (max-width:558px) {
+    .text_bg h1{
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 1.1;
+        color: #ffffff;
+    }
+}
+
+
+.text_bg .col-md-12{
+    text-align: right;
+    height: 500px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_bg button{
+    color: #111111;
+    background-color: #ffffff;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 14px 47px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+
+.designed{
+    padding: 6rem 0rem;
+    background-color: #ffffff;
+}
+
+.designed h2{
+    font-size: 3.75rem;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #88a593;
+}
+
+.designed p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #111111;
+}
+
+.designed button{
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 15px 51px;
+    color: #ffffff;
+    background-color: #88a593;
+    border-radius: 50px;
+    border: 1px solid #88a593;
+}
+
+.enim{
+    background-color: #a8c0b1;
+    padding: 6rem 0rem;
+}
+
+.enim img{
+    border-radius: 100%;
+    border: 15px solid #ffffff;
+}
+
+.enim .box{
+    background-color: #ffffff;
+    padding: 6rem 3rem;
+    margin: 0rem 3rem;
+}
+
+.enim p{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.6;
+
+}
+
+.enim .inner_box{
+    border: 10px solid #a8c0b1;
+    padding: 20px;
+}
+
+@media (max-width:558px) {
+    .enim .box{
+        background-color: #ffffff;
+        padding: 3rem 1rem;
+        margin: 0rem 0rem;
+    }
+
+    .enim .inner_box{
+        border: 10px solid #a8c0b1;
+        padding: 20px;
+    }
+}
+
+.what{
+    padding: 6rem 0rem;
+}
+
+.what h2{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #687f71;
+    line-height: 1.2;
+}
+
+.what h4{
+    line-height: 2;
+    font-size: 1.25rem;
+    color: #111111;
+}
+
+.what h3{
+    font-size: 1.5rem;
+    color: #88a593;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.what p{
+    font-size: 1.125rem;
+    font-style: italic;
+    line-height: 1.6;
+    color: #111111;
+}
